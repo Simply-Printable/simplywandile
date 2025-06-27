@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Our Product Collection - Simply Printable</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+   
+</head>
+<body>
+<body style="background-image: url('images/background%202.jpeg'); background-size:contain; background-position: center; height: 1px; margin: 0;">
+  <!-- your content -->
+</body>
+    
+<div id="cursor"></div>
+
+<header>
+  <div class="header-left">
+    <img src="images/Logo.png" alt="Logo" />
+    <h1 style="margin:0;">Simply Printable Products</h1>
+  </div>
+    
+   <nav class="nav-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="products.html" class="active">Products</a>
+       <a href="about.html" class="active">About</a>
+  </nav>
+</header>
+
+<section style="padding:50px; max-width:1200px; margin:auto;">
+<h2 style="text-align:center;">Our Extensive Product Collection</h2>
+<div class="product-grid">
+  <!-- Sample 10 models, add more as needed -->
+  <div class="product">
+    <img src="IMG/IMG14.jpg" alt="Cup" />
+    <p>Cup R200</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG16.jpg" alt="Mug" />
+    <p>Mug R115</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG15.jpg" alt="Cap" />
+    <p>Cap R120</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG21.jpg" alt="Kids Cup" />
+    <p>Kids Cup R210</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG12.jpg" alt="Kids Mug" />
+    <p>Kids Mug R170</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG10jpg.jpg" alt="Skinny" />
+    <p>Skinny R230</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG9.jpg" alt="iMedium Cup" />
+    <p>Medium Cup R150</p>
+  </div>
+  <div class="product">
+    <img src="IMG/IMG13.jpg" alt="Kids Mug" />
+    <p>Kids Mug R170</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG18.jpg" alt="Small Skinny" />
+    <p>Small Skinny R200</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG17.jpg" alt="Small Skinny" />
+    <p>Small Skinny R200</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG20.jpg" alt="Kids Skinny" />
+    <p>Kids SkinnyR200</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG21.jpg" alt="Kids Skinny" />
+    <p>Kids Skinny R200</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG19.jpg" alt="Skinny" />
+    <p>Skinny R12 500</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG6.jpg" alt="Mugs" />
+    <p>Mugs R14 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG1.jpg" alt="Big Cup" />
+    <p>Big Cup R12 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/WhatsApp%20Image%202025-06-27%20at%2011.14.38_9365a4f4.jpg" alt="Embroidery" />
+    <p>Embroidery   R14 500</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG11.jpg" alt="Skinny" />
+    <p>Skinny R16 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMGlig1.jpg" alt="Lighter" />
+    <p>Lighter R14 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMGlig2.jpg" alt="Lighter" />
+    <p>Lighter R17 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG5.jpg" alt="Mug" />
+    <p>Mug R20 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMGkey1.jpg" alt="KeyHolder" />
+    <p>KeyHolder R15 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMG4.jpg" alt="Mug" />
+    <p>Mug R19 000</p>
+  </div>
+    <div class="product">
+    <img src="IMG/IMGowner.jpg" alt="Owner encane" />
+    <p>Owner not for Sale</p>
+  </div>
+    <script>
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('mouseenter', () => { document.body.classList.add('hover'); });
+    link.addEventListener('mouseleave', () => { document.body.classList.remove('hover'); });
+  });
+</script>
+    </section>>
+     
+    <footer>
+  <p>&copy; 2025 Simply Printable. All rights reserved.</p>
+  <p>Contact us: 063 412 6874 | printablesimply@gmail.com</p>
+  <p>
+    <a href="privacy.html" style="color:#fff;text-decoration:underline;">Privacy Policy</a> | 
+    <a href="terms.html" style="color:#fff;text-decoration:underline;">Terms & Conditions</a>
+  </p>
+</footer>
+    

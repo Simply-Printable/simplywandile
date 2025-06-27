@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SIMPLY PRINTABLE - Home</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+   
+</head>
+<body>
+
+     <body style="background-color:dimgrey; height: 100vh; margin: 0;">
+  <!-- your content -->
+</body>
+    
+<!-- Custom cursor -->
+<div id="cursor"></div>
+
+<!-- Sticky Header with modern menu and social icons -->
+<header>
+  <div class="header-left">
+    <img src="IMG/IMG1.jpg" alt="Logo" />
+    <div class="header-title">SIMPLY PRINTABLE</div>
+  </div>
+  <nav class="nav-menu">
+    <a href="index.html" class="active">Home</a>
+    <a href="products.html" class="active">Products</a>
+      <a href="about.html" class="active">About</a>
+  </nav>
+    <div class="social-icons">
+      <a href="https://wa.me/your-number" target="_blank"><img src="IMG/IMGwhats.jpeg" alt="WhatsApp" title="WhatsApp"></a>
+      <a href="https://facebook.com/yourpage" target="https://www.facebook.com/share/16c6RASp6c/"><img src="IMG/IMGfac.png" alt="Facebook" title="Facebook"></a>
+      <a href="https://instagram.com/yourpage" target="https://www.instagram.com/?igsh=am02N2g3YTdsbmEw&utm_source=qr"><img src="IMG/IMGinsta.jpeg" alt="Instagram" title="Instagram"></a>
+      <a href="https://tiktok.com/@yourpage" target="https://www.tiktok.com/@simply_printable01?_t=ZM-8wyTbIpjS9W&_r=1"><img src="IMG/IMGtik.png" alt="TikTok" title="TikTok"></a>
+    </div>
+  </nav>
+</header>
+
+<!-- Hero Banner -->
+<section id="hero-banner" style="background-image: url('images/Background-Home.jpeg');">
+  <h1>Welcome to Simply Printable</h1>
+  <p>Your trusted partner for Simply Printing</p>
+</section>
+
+<!-- Featured Products -->
+<section style="background-image: url('images/iphone-bg.jpg');">
+  <h2 style="color: white;">Our Featured Products</h2>
+  <div class="product-grid">
+    <!-- Sample product cards -->
+    
+      <div class="product">
+  <img src="IMG/IMGdtf.jpg" height="150" alt="We Do all" />
+  <p>We Do All of these</p>
+  
+</div>
+      
+    <div class="product">
+      <img src="IMG/IMG1.jpg"  height="150" alt="Big Cup" />
+      <p>Big Cup — R250 </p>
+    </div>
+    <div class="product">
+      <img src="IMG/IMG2.jpg"  height="150" alt="Medium Cup" />
+      <p>Medium Cup — R210 </p>
+    </div>
+    <div class="product">
+      <img src="IMG/IMGkey1.jpg"  height="150" alt="KeyHolder" />
+      <p>Key Holder — R100</p>
+    </div>
+  </div>
+</section>
+
+<!-- About preview -->
+<section style="background-color:darkslategray; padding:40px;">
+  <h2 style="color: white;">About Us</h2>
+  <p style="text-align:center;font-size:1.1em;">
+    Since 2021, we've been providing top-quality products
+  </p>
+  <a href="about.html" style="display:inline-block;margin-top:20px;padding:10px 20px;background:#4CAF50;color:#fff;border-radius:8px;text-decoration:none;">Learn More</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2025 Simply Printable. All rights reserved.</p>
+  <p>Contact us: 063 412 6874 | printablesimply@gmail.com</p>
+  <p>
+    <a href="privacy.html" style="color:#fff;text-decoration:underline;">Privacy Policy</a> | 
+    <a href="terms.html" style="color:#fff;text-decoration:underline;">Terms & Conditions</a>
+  </p>
+</footer>
+
+<!-- Scripts for cursor and hover effects -->
+<script>
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('mouseenter', () => { document.body.classList.add('hover'); });
+    link.addEventListener('mouseleave', () => { document.body.classList.remove('hover'); });
+  });
+</script>
+<script>
+  const cursor = document.getElementById('cursor');
+  document.addEventListener('mousemove', e => {
+    cursor.style.left = e.clientX + 'px';
+    cursor.style.top = e.clientY + 'px';
+  });
+  document.querySelectorAll('a').forEach(link => {
+    link.addEventListener('mouseenter', () => { document.body.classList.add('hover'); });
+    link.addEventListener('mouseleave', () => { document.body.classList.remove('hover'); });
+  });
+    
+   
+</script>
+</body>
+</html>
